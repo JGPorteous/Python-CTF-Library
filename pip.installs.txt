@@ -1,0 +1,31 @@
+PIP Installs - Useful Libraries for CTF Competitions
+----------------------------------------------------
+
+#Upgrade python
+python.exe -m pip install --upgrade pip --user
+
+#Crypto Libraries for Python
+pip install pycryptodome
+
+# https://pypi.org/project/gmpy2/
+# gmpy2 is an optimized, C-coded Python extension module that supports fast multiple-precision arithmetic. gmpy2 is based on the original gmpy module. gmpy2 adds support for correctly rounded multiple-precision real arithmetic (using the MPFR library) and complex arithmetic (using the MPC library).
+pip install gmpy2
+
+# https://pypi.org/project/pwntools/
+# Pwntools is a CTF framework and exploit development library. Written in Python, it is designed for rapid prototyping and development, and intended to make exploit writing as simple as possible.
+pip install pwn --user
+
+
+# https://pypi.org/project/libnum/
+# This is a python library for some numbers functions:
+#  - working with primes (generating, primality tests)
+#  - common maths (gcd, lcm, n'th root)
+#  - modular arithmetics (inverse, Jacobi symbol, square root, solve CRT)
+#  - converting strings to numbers or binary strings
+# Library may be used for learning/experimenting/research purposes. Should NOT be used for secure crypto implementations.
+pip install libnum 
+
+
+# https://pypi.org/project/sympy/
+# Python Library for Symbolic Mathematics
+pip install sympy --user
